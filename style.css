@@ -1,0 +1,130 @@
+.icon {
+    padding: 15px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.icon img {
+    margin-right: 10px;
+}
+
+.icon a {
+    color: grey;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.sidebar {
+    border-right: 0.5px solid grey;
+    width: 244px;
+    padding-top: 20px;
+    float:left;
+    position:static;
+}
+
+.main{
+    width:630px;
+    gap:20px;   
+    position:absolute; top:10px; left:300px;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 72px 0px 0px;
+        gap: 16px;
+}
+
+.story{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.story img{
+    width:63px;
+    height:5,6px;
+    top: 5px;
+    padding: 72px 0px 0px 0px;
+
+}
+
+.post{
+    display:flex;
+    justify-content: center;
+    margin:7px;
+}
+
+
+
+#ase{
+    width:400px;
+    height:576px;
+    position: absolute; top:253px; left:253px;
+}
+
+#bar{
+    position:absolute; top:845px;left:253px;
+    display:inline-block;
+    display: flex;
+    justify-content: space-between;
+    gap:17px
+}
+
+#below{
+    display:block;
+    position:absolute; top:880px;left:253px;
+    padding:0px
+}
+
+#asd{
+    width:400px;
+    height:576px;
+    position: absolute; top:1100px; left:253px;
+}
+
+#p2{
+    position:absolute; top:1065px; left:253px;
+    display:flex;
+    justify-content: center;
+    margin:7px;
+    }
+
+    #below2{
+            display:block;
+            position:absolute; top:1710px;left:253px;
+            padding:0px
+        
+
+    }
+
+    #bar1{
+        position:absolute; top:1685px;left:253px;
+        display:inline-block;
+        display: flex;
+        justify-content: space-between;
+        gap:17px
+    }
+    
+    aside{
+        float:right;
+    }
+
+    #rbar{
+        position:absolute; top:70px; right:200px;
+        display:flex;
+    justify-content: center;
+
+    }
+
+    #switch{
+        position:absolute; top:30px; right:10px;
+        text-decoration: none;
+        color:skyblue;
+    }
+
+    .sugg{
+        position: absolute; top:300px; right:200px;
+        display: block;
+    }
